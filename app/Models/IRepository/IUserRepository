@@ -1,0 +1,9 @@
+<?php
+namespace App\Models\IRepository;
+use App\Models\User;
+
+interface IUserRepository {
+	
+	public function getAll();
+	public function find($id);
+}
